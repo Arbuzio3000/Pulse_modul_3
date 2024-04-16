@@ -1,5 +1,10 @@
-@import url(base/_variables.scss);
+@import 'base/variables';
 
 *{
     font-family: 'Museo Sans Cyrl', sans-serif;
+    margin: 0 auto;
 }
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
