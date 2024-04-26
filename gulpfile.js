@@ -13,7 +13,7 @@ gulp.task('server', function() {
         }
     });
 
-    gulp.watch("src/*.html").on('change', browserSync.reload);
+    gulp.watch("src/.html").on('change', browserSync.reload);
 });
 
 gulp.task('styles', function() {
@@ -24,6 +24,8 @@ gulp.task('styles', function() {
         .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(gulp.dest("src/css"))
         .pipe(browserSync.stream());
+        
+         
 });
 
 gulp.task('watch', function() {
