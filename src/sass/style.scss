@@ -5,7 +5,12 @@
     margin: 0;
 }
 
+
+@import 'blocks/titles';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
-@import 'blocks/advantage'
+@import 'blocks/advantage';
+@import 'media';
+@import 'blocks/consultation';
+@import 'blocks/forms';
