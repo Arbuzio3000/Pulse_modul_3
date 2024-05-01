@@ -4,12 +4,14 @@
         position: relative;
         width: 750px;
         margin: 0 auto;
+        display: flex;
+        align-items: center;
     }
-    .slick-prev, .slick-next{
+    .prev, .next{
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        left: -66px;
+        left: 10px;
         border: none;
         background-color: transparent;
         cursor: pointer;
@@ -19,8 +21,21 @@
             
         }
     }
-    .slick-next{
-        right: -66px;
+    .next{
+        right: 10px;
         left: auto;
+    }
+    .tns-outer [data-action]{
+        display: none;
+    }
+    .tns-item{
+        div{
+            height: 400px;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            height: 422px;
+        }
     }
 }

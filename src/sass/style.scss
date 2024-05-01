@@ -5,13 +5,19 @@
     margin: 0;
 }
 
+.container{
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
 
 @import 'blocks/titles';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantage';
-@import 'media';
 @import 'blocks/consultation';
 @import 'blocks/forms';
 @import 'blocks/carousel';
+@import 'media';
