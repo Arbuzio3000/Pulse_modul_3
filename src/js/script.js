@@ -43,10 +43,8 @@ var slider = tns({
   responsive: {
     300: {
       autoplay: true,
-      autoplayButton: false,
-      autoplayButtonOutput: false,
       items: 1
-    },
+    }, 
     700: {
       gutter: 150,
       items: 2,

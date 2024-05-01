@@ -28,8 +28,13 @@ gulp.task('styles', function() {
          
 });
 
+gulp.task('scripts', function() {
+    return gulp.src("src/js/*.+(js)").pipe(browserSync.stream());    
+});
+
 gulp.task('watch', function() {
     gulp.watch("src/sass/**/*.+(scss|sass)", gulp.parallel('styles'));
+    gulp.watch("src/js/*.+(js)", gulp.parallel('scripts'));
 })
 
-gulp.task('default', gulp.parallel('watch', 'server', 'styles'));
+gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts'));
