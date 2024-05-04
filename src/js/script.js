@@ -84,3 +84,4 @@ function toggleSlide(item){
 
 toggleSlide('.catalog-item__link');
 toggleSlide('.catalog-item__back');
+

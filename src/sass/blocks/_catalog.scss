@@ -44,6 +44,9 @@
         &_active{
             display: flex;
         }
+        &_2-item{
+            justify-content: space-around;
+        }
     }
     &-item{
         width: 300px;
