@@ -139,20 +139,23 @@
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
-            li{
-                position: relative;
-                color: #555555;
-                font-size: 14px;
-                font-weight: 300;
-                margin-bottom: 20px;
-                &:before{
-                    content: '';
-                    position: absolute;
-                    width: 5px;
-                    height: 5px;
-                    background-color: $main-color;
-                    left: -14px;
-                    top: 5px;
+            ul{
+                padding-left: 0;
+                li{
+                    position: relative;
+                    color: #555555;
+                    font-size: 14px;
+                    font-weight: 300;
+                    margin-bottom: 20px;
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        width: 5px;
+                        height: 5px;
+                        background-color: $main-color;
+                        left: -14px;
+                        top: 5px;
+                    }
                 }
             }
         }
